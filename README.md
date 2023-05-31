@@ -6,7 +6,7 @@
 - email: marta.magnani2@studenti.unimi.it
 
 ### About The Project
-This is a project developed for Statistical Methods for Machine Learning exam at the University of Milan (academic year 2021-2022). In this project, I address the issue of binary classification, considering a dataset composed by dogs and cats images. In this scenario, the proposed approach is to employ Convolutional Neural Network frameworks, which are more suitable in case of image classification.
+This project was developed for the Statistical Methods for Machine Learning exam at the University of Milan (academic year 2021-2022). In this project, the issue of binary classification is addeessed considering a dataset composed by dogs and cats images. In this scenario, the proposed approach consists in training some Convolutional Neural Networks, which are more suitable in case of image classification.
 
 ### Built With
 * Python 3.10.11
