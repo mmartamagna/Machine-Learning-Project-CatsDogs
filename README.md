@@ -17,7 +17,7 @@ This is a project developed for Statistical Methods for Machine Learning exam at
 - CatsDogs CNN Models.jpynb: file containing both data preprocessing and CNNs execution
 
 ### Shared Google drive folder
-This folder contains three subfolders, namely Cats, Dogs and Pickles. As written in the GoogleColab file, if you want to skip all the data preprocessing phases, I suggest you to directly use the files contained in Pickles. More details are in GoogleColab file or Datapreprocessing file. Since Colab is connected to Google Drive, I suggest to use this folder to speed up the process.
+This folder contains three subfolders (Cats, Dogs and Pickles). As written in the GoogleColab file, if you want to skip all the data preprocessing phases, I suggest you to directly use or download the files contained in Pickles (images_grey.pickle, labels_grey.pickle) and run the code from the section named 'Normalizing pixel values' in the GoogleColab file. By doing so, you will be ready for running the CNNs models! More details are in GoogleColab file or Datapreprocessing file. Since Colab is connected to Google Drive, I suggest to use this folder to speed up the process.
 https://drive.google.com/drive/folders/1rCcfqym_UIUSDBr2_uOUBwt-f7FUr7y7?usp=sharing
 
 
