@@ -1,4 +1,4 @@
-#Import packages
+###Import packages
 import pandas as pd #reading/writing data
 import numpy as np #working with arrays, linear algebra
 import matplotlib.pyplot as plt #display images
@@ -37,7 +37,8 @@ tfk = tf.keras
 #tf.keras.backend.set_floatx("float64")
 %load_ext tensorboard
 
-###Data import
+*******************************************************************
+##DATA IMPORT
 #Open the data from Google Drive
 from google.colab import drive
 drive.mount('/content/drive')
@@ -47,6 +48,7 @@ dir = '/content/drive/MyDrive/Project CatsDogs/CatsDogs'
 cats_folder = os.path.join(dir, 'Cats')
 dogs_folder = os.path.join(dir, 'Dogs')
 
+***********************************************************************
 ##DATA PREPROCESSING
 ##1. WRONG IMAGES REMOVAL
 ##Define vectors containing misleading images
@@ -61,7 +63,6 @@ wrong_dogs = [7, 1043, 1194, 1259, 1308, 1773, 1895, 2614, 2877, 4367, 5490, 560
 #REMOVING ALL THE MISLEADING IMAGES
 import shutil
 
-# Remove misleading images from the cats folder
 for cat_number in wrong_cats:
     filename = f"{cat_number}.jpg"
     file_path = os.path.join(cats_folder, filename)
@@ -74,7 +75,6 @@ for dog_number in wrong_dogs:
     file_path = os.path.join(dogs_folder, filename)
     if os.path.exists(file_path):
         os.remove(file_path)
-
 
  # Count the remaining images in the cats folder
 cats_images = [file for file in os.listdir(cats_folder) if file.endswith(".jpg")]
@@ -160,15 +160,5 @@ labels_array_grey = pickle.load(pickle_input_grey)
 images_array_grey = pickle.load(open('/content/drive/MyDrive/Project CatsDogs/CatsDogs/Pickles/images_grey.pickle','rb'))
 labels_array_grey = pickle.load(open('/content/drive/MyDrive/Project CatsDogs/CatsDogs/Pickles/labels_grey.pickle','rb'))
 
-######################################
-# Load images and labels from pickle files
-with open('/content/drive/MyDrive/Project CatsDogs/CatsDogs/Pickles/images_grey.pickle','rb') as f:
-    images = pickle.load(f)
-
-with open('/content/drive/MyDrive/Project CatsDogs/CatsDogs/Pickles/labels_grey.pickle','rb') as f:
-    labels = pickle.load(f)
-
-# Normalize pixel values (0-255) to be between 0 and 1
-images = np.array(images) / 255.0
 
 
