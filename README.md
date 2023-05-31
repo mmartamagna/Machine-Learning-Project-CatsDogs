@@ -15,4 +15,8 @@ This is a project developed for Statistical Methods for Machine Learning exam at
 
 We saved all the .tf files on a Google Drive folder, so that we could run our code without retraining the models each time. Since Colab is connected to Google Drive, I suggest to use this folder to speed up the process.
 
+### Shared Google drive folder
+This folder contains three subfolders, namely Cats, Dogs and Pickles. As written in the GoogleColab file, if you want to skip all the data preprocessing phases, I suggest you to directly use the files contained in Pickles.
+https://drive.google.com/drive/folders/1rCcfqym_UIUSDBr2_uOUBwt-f7FUr7y7?usp=sharing
+
 
