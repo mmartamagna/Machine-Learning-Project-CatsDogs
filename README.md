@@ -1,5 +1,5 @@
 ## Convolutional Neural Networks for the automated recognition of cats and dogs images
-[![Open In Colab][(https://colab.research.google.com/assets/colab-badge.svg)][(https://colab.research.google.com/github/mmartamagna/Machine-Learning-Project-CatsDogs/blob/main/Project_CatsDogs_CNNs.ipynb)]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)[(https://colab.research.google.com/github/mmartamagna/Machine-Learning-Project-CatsDogs/blob/main/Project_CatsDogs_CNNs.ipynb)]
 
 ### Student information
 - Marta Magnani (961071)
