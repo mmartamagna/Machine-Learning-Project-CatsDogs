@@ -37,7 +37,7 @@ tfk = tf.keras
 #tf.keras.backend.set_floatx("float64")
 %load_ext tensorboard
 
-*******************************************************************
+#*******************************************************************
 ##DATA IMPORT
 #Open the data from Google Drive
 from google.colab import drive
@@ -48,7 +48,7 @@ dir = '/content/drive/MyDrive/Project CatsDogs/CatsDogs'
 cats_folder = os.path.join(dir, 'Cats')
 dogs_folder = os.path.join(dir, 'Dogs')
 
-***********************************************************************
+#***********************************************************************
 ##DATA PREPROCESSING
 ##1. WRONG IMAGES REMOVAL
 ##Define vectors containing misleading images
