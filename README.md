@@ -9,14 +9,11 @@ This is a project developed for Statistical Methods for Machine Learning exam at
 * OpenCV
 
 ### Composition of the repository
-- StatisticalMethodsData: folder in which all .json files about the experiments are collected.
-- Visualization: folder in which some visualizations generated on colab are visible.
-- Initialization
-
-We saved all the .tf files on a Google Drive folder, so that we could run our code without retraining the models each time. Since Colab is connected to Google Drive, I suggest to use this folder to speed up the process.
+- Data preprocessing: .json file about data preprocessing
+- CatsDogs CNN Models.jpynb: file containing both data preprocessing and CNNs execution
 
 ### Shared Google drive folder
-This folder contains three subfolders, namely Cats, Dogs and Pickles. As written in the GoogleColab file, if you want to skip all the data preprocessing phases, I suggest you to directly use the files contained in Pickles. More details are in GoogleColab file or Datapreprocessing file.
+This folder contains three subfolders, namely Cats, Dogs and Pickles. As written in the GoogleColab file, if you want to skip all the data preprocessing phases, I suggest you to directly use the files contained in Pickles. More details are in GoogleColab file or Datapreprocessing file. Since Colab is connected to Google Drive, I suggest to use this folder to speed up the process.
 https://drive.google.com/drive/folders/1rCcfqym_UIUSDBr2_uOUBwt-f7FUr7y7?usp=sharing
 
 
