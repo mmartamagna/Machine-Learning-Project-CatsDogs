@@ -14,8 +14,8 @@ This is a project developed for Statistical Methods for Machine Learning exam at
 * OpenCV
 
 ### Composition of the repository
-- Data preprocessing: .json file about data preprocessing
-- CatsDogs CNN Models.jpynb: file containing both data preprocessing and CNNs execution
+- CatsDogs CNN Models.jpynb: file containing data preprocessing and CNNs execution.
+- Report containing more theoretical details about the implemented CNNs and the relative training results.
 
 ### Shared Google drive folder
 This link below connects to the shared CatsDogs folder containing three subfolders (Cats, Dogs and Pickles). As written in the GoogleColab file, if you want to skip all the data preprocessing phases, I suggest you to directly use or download the files contained in Pickles (images_grey.pickle, labels_grey.pickle) and run the code from the section named 'Normalizing pixel values' present in the GoogleColab file. By doing so, you will be ready for running the CNNs models! More details are in GoogleColab file. Since Colab is connected to Google Drive, I suggest to use this folder to speed up the process.
