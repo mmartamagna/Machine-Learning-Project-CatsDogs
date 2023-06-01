@@ -14,7 +14,7 @@ This project was developed for the Statistical Methods for Machine Learning exam
 * OpenCV
 
 ### Composition of the repository
-- Peoject CatsDogs CNN.jpynb: file containing data preprocessing and CNNs execution.
+- Project CatsDogs CNNs.jpynb: file containing data preprocessing and CNNs execution.
 - Report containing more theoretical details about the implemented CNNs and the relative training results.
 
 ### Shared Google drive folder
