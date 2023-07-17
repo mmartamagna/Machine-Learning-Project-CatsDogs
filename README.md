@@ -1,12 +1,9 @@
 ## Convolutional Neural Networks for the automated recognition of cats and dogs images
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmartamagna/Machine-Learning-Project-CatsDogs/blob/main/Project_CatsDogs_CNNs.ipynb)
 
-### Student information
-- Marta Magnani (961071)
-- email: marta.magnani2@studenti.unimi.it
 
 ### About The Project
-This project was developed for the Statistical Methods for Machine Learning exam at the University of Milan (academic year 2021-2022). The project addresses the task of binary image classification by considering 25000 images of cats and dogs. In this scenario, the proposed approach consists in training different Convolutional Neural Networks, which are more suitable in case of image classification.
+This project was developed for the Statistical Methods for Machine Learning course (academic year 2021-2022). The project addresses the task of binary image classification by considering 25000 images of cats and dogs. In this scenario, the proposed approach consists in training different Convolutional Neural Networks, which are more suitable in case of image classification.
 
 ### Built With
 * Python 3.10.11
